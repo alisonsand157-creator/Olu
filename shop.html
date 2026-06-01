@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Harps Luxury</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Georgia', serif; }
+        body { background-color: #fcfbf9; color: #222; }
+        header { background: #fff; padding: 20px 10%; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eaeaea; }
+        .logo { font-size: 24px; font-weight: bold; letter-spacing: 3px; text-transform: uppercase; }
+        nav a { margin-left: 20px; text-decoration: none; color: #555; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }
+        nav a:hover { color: #000; }
+        .shop-container { padding: 60px 10%; }
+        .page-title { font-size: 32px; font-weight: 300; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 40px; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; }
+        .product-card { background: #fff; padding: 20px; border: 1px solid #eee; text-align: center; transition: 0.3s; }
+        .product-card:hover { box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .product-placeholder { height: 350px; background: #ebdcd0; margin-bottom: 15px; display: flex; align-items: center; justify-content: center; color: #666; font-style: italic; }
+        .product-card h3 { font-size: 16px; margin: 10px 0 5px 0; font-weight: 400; }
+        .price { color: #777; font-size: 15px; margin-bottom: 15px; }
+        .buy-btn { display: inline-block; background: #222; color: #fff; padding: 10px 20px; text-decoration: none; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
+        footer { background: #111; color: #fff; text-align: center; padding: 40px 20px; font-size: 12px; letter-spacing: 1px; margin-top: 60px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Harps Luxury</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">Our Story</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="shop-container">
+        <h1 class="page-title">The Full Collection</h1>
+        <div class="grid">
+            <div class="product-card">
+                <div class="product-placeholder">Product Image</div>
+                <h3>Silk Evening Gown</h3>
+                <p class="price">$420.00</p>
+                <a href="#" class="buy-btn">Add to Bag</a>
+            </div>
+            <div class="product-card">
+                <div class="product-placeholder">Product Image</div>
+                <h3>Tailored Wool Blazer</h3>
+                <p class="price">$310.00</p>
+                <a href="#" class="buy-btn">Add to Bag</a>
+            </div>
+            <div class="product-card">
+                <div class="product-placeholder">Product Image</div>
+                <h3>Cashmere Knit Sweater</h3>
+                <p class="price">$250.00</p>
+                <a href="#" class="buy-btn">Add to Bag</a>
+            </div>
+            <div class="product-card">
+                <div class="product-placeholder">Product Image</div>
+                <h3>Linen Summer Dress</h3>
+                <p class="price">$195.00</p>
+                <a href="#" class="buy-btn">Add to Bag</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 HARPS LUXURY. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+</body>
+</html>
