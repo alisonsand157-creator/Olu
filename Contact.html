@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Harps Luxury</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Georgia', serif; }
+        body { background-color: #fcfbf9; color: #222; }
+        header { background: #fff; padding: 20px 10%; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eaeaea; }
+        .logo { font-size: 24px; font-weight: bold; letter-spacing: 3px; text-transform: uppercase; }
+        nav a { margin-left: 20px; text-decoration: none; color: #555; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }
+        nav a:hover { color: #000; }
+        .contact-container { max-width: 600px; margin: 60px auto; padding: 0 20px; }
+        .page-title { font-size: 32px; font-weight: 300; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 20px; text-align: center; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 40px; font-style: italic; }
+        form { background: #fff; padding: 30px; border: 1px solid #eee; }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; color: #444; }
+        input, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; font-family: sans-serif; font-size: 14px; }
+        input:focus, textarea:focus { border-color: #000; outline: none; }
+        .submit-btn { width: 100%; background: #222; color: #fff; border: none; padding: 15px; text-transform: uppercase; letter-spacing: 2px; font-size: 13px; cursor: pointer; transition: 0.3s; }
+        .submit-btn:hover { background: #444; }
+        footer { background: #111; color: #fff; text-align: center; padding: 40px 20px; font-size: 12px; letter-spacing: 1px; margin-top: 80px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Harps Luxury</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">Our Story</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <h1 class="page-title">Contact Concierge</h1>
+        <p class="subtitle">Have a sizing question or custom request? Reach out to our team.</p>
+        
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 HARPS LUXURY. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+</body>
+</html>
